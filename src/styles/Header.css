@@ -48,3 +48,7 @@
   cursor: pointer;
   transition: 1250ms;
 }
+
+.left-header-options a {
+  text-decoration: none;
+}

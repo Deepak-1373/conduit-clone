@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/Header.css";
 
 function Header() {
@@ -8,7 +9,9 @@ function Header() {
       <div className="header-div-right">
         <ul className="left-header-options">
           <li className="list-items selected">Home</li>
-          <li className="list-items">Sign in</li>
+          <Link to="/login">
+            <li className="list-items link-item">Sign in</li>
+          </Link>
           <li className="list-items">Sign up</li>
         </ul>
       </div>

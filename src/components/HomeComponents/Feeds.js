@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Feeds.css";
+import "../../styles/Feeds.css";
 
 function Feeds() {
   return (
